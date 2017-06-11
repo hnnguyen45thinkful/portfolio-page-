@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700');
+
+body {
+  background: #1A1F2B;
+}
+
+header {
+  padding: 20px 15px
+
+}
+
+#logo {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  background-color: #30395C;
+  display: inline-block;
+}
+
+#top-nav {
+  display: inline-block;
+  float: right;
+}
+
+#top-nav a {
+  display: inline-block;
+  padding: 15px 15px;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+#top-nav a:hover {
+  padding: 0 15px;
+  color: #85A5CC;
+  text-decoration: none;
+}
+
+.jumbo {
+  padding: 200px 0;
+}
+
+.jumbo h1 {
+  font-family: "Cabin Sketch", cursive;
+  text-align: center;
+  color:#fff;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.work {
+  padding: 60px 200px;
+  text-align: center;
+}
+
+.work .box {
+  display: inline-block;
+  background: #fff;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+}
+
+div#box1.box {
+  background: url(../img/api-cap.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+
+div#box2.box {
+  background: url(../img/api-cap.jpg) no-repeat center center;
+  background-size: cover;
+}
+div#box3.box {
+  background: url(../img/api-cap.jpg) no-repeat center center;
+  background-size: cover;
+}
